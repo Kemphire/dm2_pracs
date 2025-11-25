@@ -1,0 +1,19 @@
+[project]
+name = "all-pracs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "kagglehub[pandas-datasets]>=0.3.13",
+    "matplotlib>=3.10.7",
+    "nltk[english]>=3.9.2",
+    "numpy>=2.3.5",
+    "pandas>=2.3.3",
+    "river>=0.23.0",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.16.3",
+    "seaborn>=0.13.2",
+    "typing-extensions>=4.15.0",
+]
